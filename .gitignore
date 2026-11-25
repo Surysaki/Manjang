@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试 / 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- PyInstaller ----
+# 注意：Manjang.spec 是构建配置，需要提交，不要忽略 *.spec
+*.spec.bak
+*.manifest
+
+# ---- IDE ----
+.idea/
+.vscode/
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地数据 / 密钥（应用默认写到用户目录，这里兜底）----
+.env
+.env.*
+*.log
+*.db
+*.sqlite3
+secrets.json
